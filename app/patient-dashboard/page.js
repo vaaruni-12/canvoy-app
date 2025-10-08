@@ -6,8 +6,8 @@ export default function PatientDashboard() {
       <PatientNavigation />
       
       <div className="max-w-7xl mx-auto py-6 px-4">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome back, Vaaruni!</h1>
-        <p className="text-gray-600 mb-8">Here's your health overview for today.</p>
+        <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome back, Sarah!</h1>
+        <p className="text-gray-600 mb-8">Here&apos;s your health overview for today.</p> {/* Fixed apostrophe */}
         
         {/* Quick Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -37,7 +37,7 @@ export default function PatientDashboard() {
             <div className="flex items-center space-x-4 p-3 bg-blue-50 rounded-lg">
               <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
               <div>
-                <p className="font-medium">Doctor's Note Added</p>
+                <p className="font-medium">Doctor&apos;s Note Added</p> {/* Fixed apostrophe */}
                 <p className="text-sm text-gray-600">Dr. Smith updated your treatment plan</p>
               </div>
               <span className="text-sm text-gray-500 ml-auto">2 hours ago</span>

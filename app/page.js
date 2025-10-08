@@ -19,13 +19,13 @@ export default function Home() {
             href="/signup" 
             className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 inline-block"
           >
-            I'm a Patient
+            I&apos;m a Patient {/* Fixed apostrophe */}
           </Link>
           <Link 
             href="/signup" 
             className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 inline-block"
           >
-            I'm a Doctor
+            I&apos;m a Doctor {/* Fixed apostrophe */}
           </Link>
         </div>
       </div>
@@ -115,10 +115,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="text-2xl font-bold mb-4">CanVoy</div>
           <p className="text-gray-400">
-          Empowering cancer care through technology and connection
+            Empowering cancer care through technology and connection
           </p>
           <div className="mt-6 text-sm text-gray-400">
-            © 2025 CanVoy. All rights reserved.
+            © 2024 CanVoy. All rights reserved.
           </div>
         </div>
       </footer>

@@ -9,7 +9,7 @@ export default function DoctorDashboard() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-800">Good morning, Dr. Smith!</h1>
-          <p className="text-gray-600">Here's your overview for today.</p>
+          <p className="text-gray-600">Here&apos;s your overview for today.</p> {/* Fixed apostrophe */}
         </div>
 
         {/* Quick Stats */}
@@ -85,9 +85,9 @@ export default function DoctorDashboard() {
             </div>
           </div>
 
-          {/* Today's Schedule */}
+          {/* Today&apos;s Schedule */} {/* Fixed apostrophe */}
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-xl font-semibold mb-4">Today's Schedule</h2>
+            <h2 className="text-xl font-semibold mb-4">Today&apos;s Schedule</h2> {/* Fixed apostrophe */}
             <div className="space-y-4">
               <div className="flex items-center space-x-4 p-3 bg-blue-50 rounded-lg">
                 <div className="w-2 h-12 bg-blue-500 rounded-full"></div>
